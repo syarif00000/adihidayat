@@ -1,0 +1,92 @@
+/* Reset gaya default pada elemen HTML */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mengatur tampilan header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: flex;
+    font-style: bold;
+   
+  }
+  
+  nav ul li a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  /* Mengatur tampilan bagian beranda */
+  #home {
+    padding: 40px;
+  }
+
+  .img-class {
+    display: ruby-base-container;
+    justify-content: last baseline;
+    align-items: last baseline;
+  }
+  
+  #home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Mengatur tampilan bagian tentang kami */
+  #tentang {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  #tentang h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Mengatur tampilan bagian kegiatan */
+  #kegiatan {
+    padding: 40px;
+  }
+  
+  #kegiatan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Mengatur tampilan bagian kontak kami */
+  #kontak {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  #kontak h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Mengatur tampilan footer */
+  footer {
+    background-color: #f9f9f9;
+    color: #070202;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  

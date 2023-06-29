@@ -1,0 +1,118 @@
+/* Reset some default styles */
+body, figure, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Set maximum width for the container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Set background and styles for the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight:bolder;
+    color: bisque;
+    font-display: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+  }
+
+  .ul-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Set styles for the hero section */
+  .image-section{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Set styles for the about section */
+  .about {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Set styles for the services section */
+  .services {
+    padding: 80px 0;
+  }
+   
+
+  
